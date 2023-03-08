@@ -1,4 +1,13 @@
-import { Article, CTA, Feature, Navbar, Brand } from "./components";
+import {
+  Header,
+  Features,
+  Blog,
+  Possibility,
+  WhatGPT3,
+  Footer,
+} from "./containers";
+
+import { CTA, Brand, Navbar } from "./components";
 
 function App() {
   return (
