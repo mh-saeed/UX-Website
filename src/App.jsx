@@ -1,3 +1,5 @@
+import "./App.css";
+
 import {
   Header,
   Features,
@@ -11,9 +13,19 @@ import { CTA, Brand, Navbar } from "./components";
 
 function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+    </div>
   );
 }
 
